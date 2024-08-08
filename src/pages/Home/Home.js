@@ -1,3 +1,4 @@
+import BotonInicio from '../../components/BotonInicio/BotonInicio';
 
 
 import"./Home.css";
@@ -15,8 +16,9 @@ export default function Home(){
                 </p>
                 <p className="text-center">Lets go!</p>
         
-                <button>Characters</button>
-                <button>Contact</button>
+                <BotonInicio nombreBoton='Characters'/>
+                <BotonInicio nombreBoton='Contacts'/>
+                
                  
             </div>
 

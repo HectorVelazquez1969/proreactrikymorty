@@ -1,6 +1,11 @@
+import Navegation from "../../components/Navegation/Navegation";
+
 function Contacts (){
     return(
-        <p>Pagina de Contact</p>
+        <div>
+            <Navegation hoja="Contact" />
+            <p>Pagina de Contact</p>
+        </div>
     )
 }
 

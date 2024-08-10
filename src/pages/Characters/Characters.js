@@ -5,8 +5,9 @@ function Characters (){
     return(
         <div>
             <Navegation hoja="Characters"/>
-            <SectionCards />
             <p>Pagina de Characters</p>
+            <SectionCards />
+            
         </div>
     )
 }
